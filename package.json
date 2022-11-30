@@ -4,13 +4,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.1",
     "path": "^0.12.7",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
