@@ -13,8 +13,6 @@ module.exports = {
             'main.min.js',
 
     },
-    // mode: "production",
-    // devtool: "source-map",
     module: {
         rules: [
             {
