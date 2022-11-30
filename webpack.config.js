@@ -13,8 +13,8 @@ module.exports = {
             'main.min.js',
 
     },
-    mode: "production",
-    devtool:"source-map",
+    // mode: "production",
+    // devtool: "source-map",
     module: {
         rules: [
             {
@@ -27,6 +27,16 @@ module.exports = {
                     // Compiles Sass to CSS
                     "sass-loader",
                 ],
+            },
+            {
+                test: /\.m?js$/,
+                exclude: /node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
             },
         ],
     },
