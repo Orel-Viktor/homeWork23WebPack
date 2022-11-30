@@ -1,0 +1,31 @@
+{
+  "name": "homework23WebPack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "path": "^0.12.7",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orel-Viktor/homeWork23WebPack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Orel-Viktor/homeWork23WebPack/issues"
+  },
+  "homepage": "https://github.com/Orel-Viktor/homeWork23WebPack#readme",
+  "description": ""
+}
